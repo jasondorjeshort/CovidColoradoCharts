@@ -5,5 +5,7 @@ Charts from Colorado's COVID data
 
 ![CFR by infection day](https://raw.githubusercontent.com/jasondorjeshort/CovidColoradoCharts/main/CFR-infection.png)
 
+![CHR by infection day](https://raw.githubusercontent.com/jasondorjeshort/CovidColoradoCharts/main/CHR-infection.png)
+
 ![Positivity by infection day](https://raw.githubusercontent.com/jasondorjeshort/CovidColoradoCharts/main/Positivity-infection.png)
 
