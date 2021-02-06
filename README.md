@@ -13,6 +13,8 @@ Charts from Colorado's COVID data
 
 ![Reproductive rate](https://raw.githubusercontent.com/jasondorjeshort/CovidColoradoCharts/main/R.png)
 
+![Delay from infection to cases, hospitalizations, and deaths](https://raw.githubusercontent.com/jasondorjeshort/CovidColoradoCharts/main/delay-infection.png)
+
 # Simple Explanation
 
 To track true epdidemic data, we'd like to look at data by day of infection.  Most sources only give numbers by day of public release, but this can be delayed by days, weeks, or even up to a year.  This data appears to be "up to date", but each value is just a snapshot created as a linear combination of values from a range of dates in the past: it's being obfuscated!  Colorado is unusual in that the state tracks most numbers by day of symptom onset, and by subtracting 5 days we can estimate day of infection.  This may be both imprecise and incomplete, but it is a better estimate of epidemic data than is available in any other way.
