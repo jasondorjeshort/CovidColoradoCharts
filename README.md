@@ -1,5 +1,5 @@
 # CovidColoradoCharts
-Charts from Colorado's COVID data
+COVID in Colorado.  These charts are by day of infection - on most of them, the curve is incomplete date, and the confidence intervals indicate probable future values.
 
 ![Cases, Hospitalizations, and Deaths by infection day](https://raw.githubusercontent.com/jasondorjeshort/CovidColoradoCharts/main/cases-hospitalizations-deaths-infection-log.png)
 
