@@ -13,7 +13,7 @@ COVID in Colorado.  These charts are by day of infection - on most of them, the 
 
 ![Positivity by infection day](https://raw.githubusercontent.com/jasondorjeshort/CovidColoradoCharts/main/Positivity-infection.png)
 
-![Reproductive rate](https://raw.githubusercontent.com/jasondorjeshort/CovidColoradoCharts/main/R.png)
+![Reproductive rate](https://raw.githubusercontent.com/jasondorjeshort/CovidColoradoCharts/main/R-cases-infection.png)
 
 ![Delay from infection to cases, hospitalizations, and deaths](https://raw.githubusercontent.com/jasondorjeshort/CovidColoradoCharts/main/delay-cases-hospitalizations-deaths-infection-cumulative.png)
 
