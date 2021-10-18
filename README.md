@@ -1,21 +1,21 @@
 # CovidColoradoCharts
-COVID in Colorado.  These charts are by day of infection - on most of them, the curve is incomplete data, and the confidence intervals indicate probable future values.
+COVID in Colorado.  These charts are by day of onset - on most of them, the curve is incomplete data, and the confidence intervals indicate probable future values.
 
-![Cases, Hospitalizations, and Deaths by infection day (smoothed)](https://raw.githubusercontent.com/jasondorjeshort/CovidColoradoCharts/main/cases-hospitalizations-deaths-infection-log-smooth.png)
+![Cases, Hospitalizations, and Deaths by onset day (smoothed)](https://raw.githubusercontent.com/jasondorjeshort/CovidColoradoCharts/main/cases-hospitalizations-deaths-onset-log-smooth.png)
 
-![Cases, Hospitalizations, and Deaths by infection day (exact)](https://raw.githubusercontent.com/jasondorjeshort/CovidColoradoCharts/main/cases-hospitalizations-deaths-infection-log-exact.png)
+![Cases, Hospitalizations, and Deaths by onset day (exact)](https://raw.githubusercontent.com/jasondorjeshort/CovidColoradoCharts/main/cases-hospitalizations-deaths-onset-log-exact.png)
 
-![CFR by infection day](https://raw.githubusercontent.com/jasondorjeshort/CovidColoradoCharts/main/CFR-infection.png)
+![CFR by onset day](https://raw.githubusercontent.com/jasondorjeshort/CovidColoradoCharts/main/CFR-onset.png)
 
-![CHR by infection day](https://raw.githubusercontent.com/jasondorjeshort/CovidColoradoCharts/main/CHR-infection.png)
+![CHR by onset day](https://raw.githubusercontent.com/jasondorjeshort/CovidColoradoCharts/main/CHR-onset.png)
 
-![HFR by infection day](https://raw.githubusercontent.com/jasondorjeshort/CovidColoradoCharts/main/HFR-infection.png)
+![HFR by onset day](https://raw.githubusercontent.com/jasondorjeshort/CovidColoradoCharts/main/HFR-onset.png)
 
-![Positivity by infection day](https://raw.githubusercontent.com/jasondorjeshort/CovidColoradoCharts/main/Positivity-infection.png)
+![Positivity by onset day](https://raw.githubusercontent.com/jasondorjeshort/CovidColoradoCharts/main/Positivity-onset.png)
 
-![Reproductive rate](https://raw.githubusercontent.com/jasondorjeshort/CovidColoradoCharts/main/R-cases-hospitalizations-deaths-infection.png)
+![Reproductive rate](https://raw.githubusercontent.com/jasondorjeshort/CovidColoradoCharts/main/R-cases-hospitalizations-deaths-onset.png)
 
-![Delay from infection to cases, hospitalizations, and deaths](https://raw.githubusercontent.com/jasondorjeshort/CovidColoradoCharts/main/delay-cases-hospitalizations-deaths-infection-cumulative.png)
+![Delay from onset to cases, hospitalizations, and deaths](https://raw.githubusercontent.com/jasondorjeshort/CovidColoradoCharts/main/delay-cases-hospitalizations-deaths-onset-cumulative.png)
 
 # Simple Explanation
 
@@ -43,7 +43,7 @@ Estimating test numbers by infection day is a completely unrelated calculation. 
 
 By comparison, R values are trivial to calculate, being just the case growth over the time period of the serial interval.  The serial interval is currently assumed at 3.96 days as per the arithmetic mean found [here](https://wwwnc.cdc.gov/eid/article/26/6/20-0357_article).  To use rational smoothing, the week before and after each day's total cases are used for a ratio, which is then exponentiated to SERIAL_INTERVAL/7.  By using weekly totals, day-of-week issues are minimized (these appear to still exist even in symptom onset data due to placeholders).  It is worth noting that the geometric serial interval is a fairly complex thing to calculate; it should not equal the arithmetic average of data points but should be solved for in an equivalent way to solving for the golden ratio from the Fibonacci sequence.  But the counter-point is that the serial interval doesn't really matter most of the time; we could just as easily use weekly growth rates instead of attempting to calculate an actual R value in most calculations.  R is useful in determining the effect of population immunity, however (R should decrease in a time period proportional to the percentage of previously susceptible people who are either recovered or finish vaccination in that time period, which could possibly be the target of a future graph).
 
-If you believe you should understand this explanation, but do not, I urge you to contact me with questions.  Mathematically, the workings here are intended to be intuitive and visualizable.  This is a model of how the numbers should work; there is no fitting to how they do work.  The only failure, I believe,  is that I should be tracking 95% confidence intervals rather than rolling averages.
+As of early 2021 onset date numbers stopped having variability, and appear to just be a few days before reported date.  Subtracting 5 days off to get infection date no longer seems to justify the added complexity.  Thus I'm moving everything simply to use onset date.
 
 # The Programming
 
