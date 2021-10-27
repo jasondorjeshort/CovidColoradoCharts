@@ -7,13 +7,13 @@ COVID in Colorado.  These charts are by day of onset - on most of them, the curv
 
 ![Cases this year and last](https://raw.githubusercontent.com/jasondorjeshort/CovidColoradoCharts/main/cases-onset-log-smooth.png)
 
-![CFR by onset day](https://raw.githubusercontent.com/jasondorjeshort/CovidColoradoCharts/main/CFR-onset.png)
+![CFR by onset day](https://raw.githubusercontent.com/jasondorjeshort/CovidColoradoCharts/main/cfr-onset.png)
 
-![CHR by onset day](https://raw.githubusercontent.com/jasondorjeshort/CovidColoradoCharts/main/CHR-onset.png)
+![CHR by onset day](https://raw.githubusercontent.com/jasondorjeshort/CovidColoradoCharts/main/chr-onset.png)
 
-![HFR by onset day](https://raw.githubusercontent.com/jasondorjeshort/CovidColoradoCharts/main/HFR-onset.png)
+![HFR by onset day](https://raw.githubusercontent.com/jasondorjeshort/CovidColoradoCharts/main/hfr-onset.png)
 
-![Positivity by onset day](https://raw.githubusercontent.com/jasondorjeshort/CovidColoradoCharts/main/Positivity-onset.png)
+![Positivity by onset day](https://raw.githubusercontent.com/jasondorjeshort/CovidColoradoCharts/main/positivity-onset.png)
 
 ![Reproductive rate](https://raw.githubusercontent.com/jasondorjeshort/CovidColoradoCharts/main/R-cases-hospitalizations-deaths-onset.png)
 
