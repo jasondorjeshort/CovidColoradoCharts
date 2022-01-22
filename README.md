@@ -1,10 +1,10 @@
 # CovidColoradoCharts
 
-![Positivity by onset day](https://raw.githubusercontent.com/jasondorjeshort/CovidColoradoCharts/main/positivity-onset.png)
-
 ![Cases, Hospitalizations, and Deaths by onset day (smoothed)](https://raw.githubusercontent.com/jasondorjeshort/CovidColoradoCharts/main/cases-hospitalizations-deaths-365-onset-log-smooth-years.png)
 
 ![Cases, Hospitalizations, and Deaths by onset day (exact)](https://raw.githubusercontent.com/jasondorjeshort/CovidColoradoCharts/main/cases-hospitalizations-deaths-90-onset-log-exact-year.png)
+
+![Positivity by onset day](https://raw.githubusercontent.com/jasondorjeshort/CovidColoradoCharts/main/positivity-onset.png)
 
 ![CFR by onset day](https://raw.githubusercontent.com/jasondorjeshort/CovidColoradoCharts/main/cfr-onset.png)
 
